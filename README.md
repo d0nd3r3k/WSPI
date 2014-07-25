@@ -1,7 +1,7 @@
 WSPI
 ====
 
-Live streaming Raspberry Pi Cam based on jsmpeg
+Live streaming Raspberry Pi Cam based on [jsmpeg](https://github.com/phoboslab/jsmpeg)
 
 ```
 raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - | 
